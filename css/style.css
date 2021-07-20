@@ -1,0 +1,142 @@
+:root {
+  --main-color: #f13a11;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/hero-bg.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.nav_section {
+  height: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #fff;
+}
+.nav_section .links_div {
+  width: 50%;
+}
+.nav_section .links_div ul {
+  list-style: none;
+  display: flex;
+  width: 100%;
+}
+.nav_section .links_div ul li {
+  width: 20%;
+  text-align: center;
+  font-size: 14px;
+}
+.nav_section .links_div ul li a {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+}
+.nav_section .links_div ul li a:hover {
+  color: var(--main-color);
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+}
+.nav_section .links_div ul li:first-child a {
+  color: var(--main-color);
+}
+.nav_section .links_div ul li:last-child {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav_section .links_div ul li:last-child .fab:hover {
+  color: var(--main-color);
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  cursor: pointer;
+}
+.nav_section .logo_div h1 {
+  font-size: 30px;
+}
+.nav_section .logo_div h1:hover {
+  color: var(--main-color);
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  cursor: pointer;
+}
+main {
+  height: 90vh;
+  display: flex;
+  /* Horizontal center */
+  justify-content: center;
+  /* Vertical center */
+  align-items: center;
+}
+main .center_div {
+  color: #fff;
+}
+main .center_div p {
+  font-size: 22px;
+  color: #909090;
+  text-align: center;
+  margin-bottom: 30px;
+}
+main .center_div h1 {
+  font-size: 48px;
+  text-align: center;
+}
+main .button_div {
+  margin: auto;
+  margin-top: 30px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+main .button_div #btn2 {
+  font-size: 14px;
+  padding: 14px 24px;
+  background: transparent;
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+main .button_div #btn1 {
+  background: transparent;
+  color: #fff;
+  border: none;
+  padding: 14px 24px;
+}
+main .button_div #btn1:hover {
+  color: var(--main-color);
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  cursor: pointer;
+}
+main .button_div #btn2:hover {
+  cursor: pointer;
+  border: 1px solid #fff;
+  background-color: #fff;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+}
